@@ -19,6 +19,24 @@ Recopiez ce bloc autant de fois que nécessaire.
 - Je n'ai pas compris :
 - Réponse à la question « Dans le suivi » du TP :
 
+### TP6
+
+- J'ai prédit :
+- Nous avons fait :
+- J'ai observé :
+- J'ai compris :
+- Je n'ai pas compris :
+- Réponse à la question « Dans le suivi » du TP :
+
+### TP7
+
+- J'ai prédit : fais la liste des messages envoyé avec le vidage du champs
+- Nous avons fait : Tout le TP
+- J'ai observé : 
+- J'ai compris : Tout
+- Je n'ai pas compris : Rien
+- Réponse à la question « Dans le suivi » du TP : On a utiliser textContent et pas innerHTML car innerHTML applique les balises si il y en a dans le message envoyé, alors que textContent envoie le message tel quel
+
 ## Épreuve de l'explication (TP12)
 
 - Ce que je n'ai pas su expliquer :
