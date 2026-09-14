@@ -2,12 +2,21 @@ const formulaire = document.querySelector('#chat-form');
 const statut = document.querySelector('#status');
 const versionElt = document.querySelector('#version');
 
+const champ = document.querySelector('#message');
+const liste = document.querySelector('#messages');
+
 // J1 : interface seule, on bloque l’envoi et on l’explique.
 formulaire?.addEventListener('submit', (event) => {
   event.preventDefault();
   if (statut) {
     statut.textContent = 'Interface prête ; les réponses arrivent au J2.';
   }
+  if (message.value.trim() === '') {
+    statut.textContent = ' Le message ne doit pas être vide';
+    return;
+  }
+
+  champ.value = champ.value.trim();
 });
 
 // Version du serveur local, échec discret si indisponible.
@@ -19,3 +28,7 @@ fetch('/version.json', { headers: { accept: 'application/json' } })
     }
   })
   .catch(() => {});
+
+
+
+

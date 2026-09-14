@@ -2,9 +2,9 @@
 
 **Noté. Un fichier par étudiant, écrit avec vos mots.** Une phrase honnête (« j'ai essayé X, j'ai vu Y, je ne comprends pas pourquoi ») rapporte plus qu'une phrase parfaite recopiée.
 
-- Nom :
-- Binôme :
-- Atelier utilisé (le mien, celui du binôme, la reprise) :
+- Nom : Goncalves fernandes Hugo Vitor
+- Binôme : Nathan Razafindrakoto
+- Atelier utilisé (le mien, celui du binôme, la reprise) : D1
 
 ## Pour chaque TP abordé
 
@@ -34,3 +34,60 @@ Recopiez ce bloc autant de fois que nécessaire.
 
 - Indices, aide-mémoire, voisins :
 - Ce que j'ai demandé à une IA, et comment j'ai vérifié sa réponse :
+
+ ### TP06
+
+- J'ai prédit : 
+- Nous avons fait :
+- J'ai observé :
+- J'ai compris :
+- Je n'ai pas compris :
+- Réponse à la question « Dans le suivi » du TP : La ligne 18 permet de eviter un rechargement lorsque l'on envoie
+
+ ### TP07
+
+- J'ai prédit : 
+- Nous avons fait :
+- J'ai observé :
+- J'ai compris :
+- Je n'ai pas compris :
+- Réponse à la question « Dans le suivi » du TP :
+
+
+ ### TP08
+
+- J'ai prédit : 
+- Nous avons fait :
+- J'ai observé :
+- J'ai compris :
+- Je n'ai pas compris :
+- Réponse à la question « Dans le suivi » du TP :
+
+ ### TP09
+
+- J'ai prédit : 
+- Nous avons fait :
+- J'ai observé :
+- J'ai compris :
+- Je n'ai pas compris :
+- Réponse à la question « Dans le suivi » du TP :
+
+ ### TP10
+
+- J'ai prédit : 
+- Nous avons fait :
+- J'ai observé :
+- J'ai compris :
+- Je n'ai pas compris :
+- Réponse à la question « Dans le suivi » du TP :
+
+ ### TP12
+
+- J'ai prédit : 
+- Nous avons fait :
+- J'ai observé :
+- J'ai compris :
+- Je n'ai pas compris :
+- Réponse à la question « Dans le suivi » du TP :
+
+
