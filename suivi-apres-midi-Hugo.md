@@ -46,14 +46,12 @@ Recopiez ce bloc autant de fois que nécessaire.
 
  ### TP07
 
-- J'ai prédit : 
-- Nous avons fait :
-- J'ai observé :
-- J'ai compris :
-- Je n'ai pas compris :
-- Réponse à la question « Dans le suivi » du TP :
-
-
+- J'ai prédit : fait la focntion de message d'erreur
+- Nous avons fait : fait l'exercice et le structure du js 
+- J'ai observé : des erreurs au debut
+- J'ai compris :tout l'exercice
+- Je n'ai pas compris : rien 
+- Réponse à la question « Dans le suivi » du TP : utiliser textContent plutôt que innerhtml et préférable car textContent envoie toute la chaine de caractère alors que innerhtml prend en compte les balise et les appliques lors de l'affichage.
  ### TP08
 
 - J'ai prédit : 
