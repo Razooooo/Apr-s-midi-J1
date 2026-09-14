@@ -16,7 +16,12 @@ formulaire?.addEventListener('submit', (event) => {
     champ.focus();
     return;
   }
-
+  const li = document.createElement('li');
+  li.textContent = `Vous : ${champ.value}`;
+  liste.append(li);
+  champ.value = '';
+  champ.focus();
+  
   champ.value = champ.value.trim();
 });
 
@@ -29,7 +34,5 @@ fetch('/version.json', { headers: { accept: 'application/json' } })
     }
   })
   .catch(() => {});
-
-
 
 
