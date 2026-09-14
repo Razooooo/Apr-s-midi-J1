@@ -11,8 +11,9 @@ formulaire?.addEventListener('submit', (event) => {
   if (statut) {
     statut.textContent = 'Interface prête ; les réponses arrivent au J2.';
   }
-  if (message.value.trim() === '') {
+  if (champ.value.trim() === '') {
     statut.textContent = ' Le message ne doit pas être vide';
+    champ.focus();
     return;
   }
 
