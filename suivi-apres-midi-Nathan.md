@@ -37,6 +37,15 @@ Recopiez ce bloc autant de fois que nécessaire.
 - Je n'ai pas compris : Rien
 - Réponse à la question « Dans le suivi » du TP : On a utiliser textContent et pas innerHTML car innerHTML applique les balises si il y en a dans le message envoyé, alors que textContent envoie le message tel quel
 
+### TP8
+
+- J'ai prédit : qu'il fallait utilisé tolowercase et trim pour faire cette fonctionnalité
+- Nous avons fait : les fonctions à exporté dans app.js en créant donc brain.js, puis les appelé dans app.js pour que ca fonctionne correctement
+- J'ai observé : On a observe un ajout de "cap web" en trop au dessus de < cap web : ${response}. Mais sinon ca fonctionnait bien
+- J'ai compris : Tout
+- Je n'ai pas compris : Rien
+- Réponse à la question « Dans le suivi » du TP : envoyer tout le dossier ca exposerais les fichiers sensible: les config, .env etc
+
 ## Épreuve de l'explication (TP12)
 
 - Ce que je n'ai pas su expliquer :
