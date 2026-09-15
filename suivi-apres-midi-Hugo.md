@@ -54,12 +54,12 @@ Recopiez ce bloc autant de fois que nécessaire.
 - Réponse à la question « Dans le suivi » du TP : utiliser textContent plutôt que innerhtml et préférable car textContent envoie toute la chaine de caractère alors que innerhtml prend en compte les balise et les appliques lors de l'affichage.
  ### TP08
 
-- J'ai prédit : 
-- Nous avons fait :
-- J'ai observé :
-- J'ai compris :
-- Je n'ai pas compris :
-- Réponse à la question « Dans le suivi » du TP :
+- J'ai prédit : que il fallais utiliser toLowerCase et trim pour replyto et la strucutre en idee 
+- Nous avons fait : Nous avons reflechi a l'architecture du des fonctions et comment faire pour faire fonctionner
+- J'ai observé : le cap web etait afficher en double comme je l'avais declare en li en dehors de la boucle e egalement que le code est fonctionnel. 
+- J'ai compris : la structure des fonction js 
+- Je n'ai pas compris : rien 
+- Réponse à la question « Dans le suivi » du TP : ca peut exposer des fichier sensible et faciliter les injections 
 
  ### TP09
 
