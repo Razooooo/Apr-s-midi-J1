@@ -6,6 +6,7 @@ import path from 'node:path';
 
 // Liste explicite : seuls ces chemins publics sont servis.
 const FICHIERS = {
+  'js/view.js' : 'reprise/atelier/public/js/view.js',
   'js/brains.js' : 'reprise/atelier/public/js/brain.js',
   '/': 'index.html',
   '/index.html': 'index.html',
@@ -15,7 +16,8 @@ const FICHIERS = {
 
 // MIME corrects pour chaque fichier servi.
 const TYPES = {
-  'js/brains.js' : 'reprise/atelier/public/js/brain.js',
+  'js/view.js' : 'text/javascript; charset=utf-8',
+  'js/brains.js' : 'text/javascript; charset=utf-8',
   'index.html': 'text/html; charset=utf-8',
   'styles.css': 'text/css; charset=utf-8',
   'js/app.js': 'text/javascript; charset=utf-8'

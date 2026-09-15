@@ -7,7 +7,7 @@ const versionElt = document.querySelector('#version');
 const champ = document.querySelector('#message');
 const liste = document.querySelector('#messages');
 
-const historique = [{role: 'user', text: '…' }];
+const historique = [{role: 'user', text: '…' },{ role: 'assistant', text: '…' }];
 
 // J1 : interface seule, on bloque l’envoi et on l’explique.
 formulaire?.addEventListener('submit', (event) => {
