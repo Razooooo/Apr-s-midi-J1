@@ -46,6 +46,15 @@ Recopiez ce bloc autant de fois que nécessaire.
 - Je n'ai pas compris : Rien
 - Réponse à la question « Dans le suivi » du TP : envoyer tout le dossier ca exposerais les fichiers sensible: les config, .env etc
 
+### TP9
+
+- J'ai prédit : qu'il fallait utilisé historique.push
+- Nous avons fait : Tout ce qui etait demandé
+- J'ai observé : On arrivais pas à afficher l'historique car en définissant l'historique on avait mis des objets prédéfinis dedans ce qui etait une erreur
+- J'ai compris : 
+- Je n'ai pas compris : La question sur la suppression des createElement dans app.js
+- Réponse à la question « Dans le suivi » du TP : view.js sert à formater l'affichage sur cap web. brain.js gère les reponses et les messages d'erreur, et app.js appelle les fonction lui fais la passerelles entre brain.js et view.js
+
 ## Épreuve de l'explication (TP12)
 
 - Ce que je n'ai pas su expliquer :
