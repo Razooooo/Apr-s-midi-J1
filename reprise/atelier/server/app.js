@@ -1,9 +1,12 @@
+
+
 import http from 'node:http';
 import { readFile } from 'node:fs/promises';
 import path from 'node:path';
 
 // Liste explicite : seuls ces chemins publics sont servis.
 const FICHIERS = {
+  'js/brains.js' : 'reprise/atelier/public/js/brain.js',
   '/': 'index.html',
   '/index.html': 'index.html',
   '/styles.css': 'styles.css',
@@ -12,6 +15,7 @@ const FICHIERS = {
 
 // MIME corrects pour chaque fichier servi.
 const TYPES = {
+  'js/brains.js' : 'reprise/atelier/public/js/brain.js',
   'index.html': 'text/html; charset=utf-8',
   'styles.css': 'text/css; charset=utf-8',
   'js/app.js': 'text/javascript; charset=utf-8'

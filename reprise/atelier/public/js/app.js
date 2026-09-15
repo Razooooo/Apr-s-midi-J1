@@ -1,3 +1,5 @@
+import { validateMessage, replyTo } from './brain.js';
+
 const formulaire = document.querySelector('#chat-form');
 const statut = document.querySelector('#status');
 const versionElt = document.querySelector('#version');
@@ -8,12 +10,9 @@ const liste = document.querySelector('#messages');
 // J1 : interface seule, on bloque l’envoi et on l’explique.
 formulaire?.addEventListener('submit', (event) => {
   event.preventDefault();
-  if (statut) {
-    statut.textContent = 'Interface prête ; les réponses arrivent au J2.';
-  }
-  if (champ.value.trim() === '') {
-    statut.textContent = ' Le message ne doit pas être vide';
-    champ.focus();
+const validation = validateMessage(champ.value);
+  if (!validation.ok) {
+    statut.textContent = validation.error;
     return;
   }
   const li = document.createElement('li');
@@ -23,6 +22,17 @@ formulaire?.addEventListener('submit', (event) => {
   champ.focus();
   
   champ.value = champ.value.trim();
+;
+
+  
+  const reponse = replyTo(validation.value);
+  if (reponse) {
+    const liReponse = document.createElement('li');
+    liReponse.textContent = `cap-Web : ${reponse}`;
+    liste.append(liReponse);
+    champ.focus();
+  } 
+
 });
 
 // Version du serveur local, échec discret si indisponible.
